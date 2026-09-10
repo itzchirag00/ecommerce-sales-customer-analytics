@@ -225,7 +225,48 @@ The queries can be executed using:
 Open the Excel workbook to explore the KPI dashboard and visualizations.
 
 ---
+# Business Insights & Recommendations
 
+## Key Insights
+
+1. Sports was the highest-performing category, generating ₹397,680
+   and contributing 36.27% of total revenue.
+
+2. Sports and Electronics together contributed 62.56% of total revenue,
+   making them the primary revenue-driving categories.
+
+3. North was the strongest region, generating ₹349,012.50
+   and accounting for 31.83% of revenue.
+
+4. May recorded the highest monthly revenue at ₹176,230,
+   while February recorded the lowest at ₹93,152.50.
+
+5. Monthly revenue showed significant variation, including a 33.45%
+   decline in February followed by a 31.93% increase in March.
+
+6. Running Shoes was the top revenue-generating product,
+   generating ₹303,810.
+
+7. 95% of customers were classified as repeat customers,
+   indicating strong customer retention within the dataset.
+
+8. Repeat customers had an average spend of ₹11,441.26,
+   compared with ₹1,927 for one-time customers.
+
+## Recommendations
+
+- Increase inventory and promotional focus on high-performing
+  Sports products.
+- Develop cross-category bundles around Sports and Electronics.
+- Maintain strong inventory availability in the North region.
+- Analyze successful May strategies and replicate them during
+  weaker months.
+- Monitor monthly revenue trends to identify performance drops early.
+- Use Running Shoes as a flagship product for promotions and
+  cross-selling.
+- Strengthen loyalty programs to retain repeat customers.
+- Use personalized offers to increase customer lifetime value.
+  
 # 📚 Key Learning Outcomes
 
 Through this project, I gained hands-on experience in:
