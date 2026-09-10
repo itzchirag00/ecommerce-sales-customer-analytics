@@ -297,3 +297,106 @@ E-Commerce Transaction Dataset
              │
              ▼
      Recommendations
+## 📂 Project Structure
+
+```text
+ecommerce-sales-customer-analytics/
+│
+├── ecommerce_orders.csv
+├── schema.sql
+├── analysis_queries.sql
+├── ecommerce_sales_customer_analytics_dashboard.xlsx
+├── README.md
+└── ...
+⚙️ How to Run the Project
+1. Clone the Repository
+git clone https://github.com/itzchirag00/ecommerce-sales-customer-analytics.git
+cd ecommerce-sales-customer-analytics
+2. Create the Database
+
+Open schema.sql in MySQL Workbench and execute it.
+
+This creates the:
+
+ecommerce_analytics
+
+database and the:
+
+orders
+
+table.
+
+3. Load the Dataset
+
+Import ecommerce_orders.csv into the orders table.
+
+4. Run SQL Analysis
+
+Open:
+
+analysis_queries.sql
+
+and execute the queries in MySQL Workbench.
+
+The queries generate:
+
+Sales KPIs
+Category analysis
+Regional analysis
+Product rankings
+Customer rankings
+Customer segmentation
+Monthly trends
+Revenue contribution
+Window-function analysis
+5. Open the Excel Dashboard
+
+Open:
+
+ecommerce_sales_customer_analytics_dashboard.xlsx
+
+to explore the dashboard and supporting analysis sheets.
+
+📚 Key Learning Outcomes
+
+Through this project, I gained hands-on experience in:
+
+Translating business questions into SQL queries
+Working with relational databases
+Performing sales and customer analysis
+Writing CTE-based SQL queries
+Using SQL window functions
+Applying ranking techniques
+Calculating business KPIs
+Analysing customer purchasing behaviour
+Building Excel dashboards
+Identifying business trends
+Converting analytical findings into recommendations
+Presenting data in a business-friendly format
+🔮 Future Improvements
+
+Potential enhancements include:
+
+Power BI interactive dashboard
+RFM customer analysis
+Profit and margin analysis
+Customer lifetime value analysis
+Sales forecasting
+Automated data pipeline
+Larger real-world dataset
+Interactive analytics application
+👨‍💻 Author
+
+Chirag Sood
+
+B.E. Computer Science
+
+Thapar Institute of Engineering & Technology
+
+GitHub: itzchirag00
+
+LinkedIn: Chirag Sood
+
+📜 License
+
+This project is intended for educational and personal portfolio use.
