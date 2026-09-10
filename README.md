@@ -305,98 +305,102 @@ ecommerce-sales-customer-analytics/
 ├── ecommerce_orders.csv
 ├── schema.sql
 ├── analysis_queries.sql
-├── ecommerce_sales_customer_analytics_dashboard.xlsx
+├── ecommerce_dashboard.xlsx
 ├── README.md
 └── ...
-⚙️ How to Run the Project
-1. Clone the Repository
+```
+
+---
+
+## ⚙️ How to Run the Project
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/itzchirag00/ecommerce-sales-customer-analytics.git
 cd ecommerce-sales-customer-analytics
-2. Create the Database
+```
 
-Open schema.sql in MySQL Workbench and execute it.
+### 2. Create the Database
 
-This creates the:
+Open `schema.sql` in MySQL Workbench and execute it.
 
-ecommerce_analytics
+This creates the `ecommerce_analytics` database and the `orders` table.
 
-database and the:
+### 3. Load the Dataset
 
-orders
+Import `ecommerce_orders.csv` into the `orders` table.
 
-table.
+### 4. Run SQL Analysis
 
-3. Load the Dataset
-
-Import ecommerce_orders.csv into the orders table.
-
-4. Run SQL Analysis
-
-Open:
-
-analysis_queries.sql
-
-and execute the queries in MySQL Workbench.
+Open `analysis_queries.sql` and execute the queries in MySQL Workbench.
 
 The queries generate:
 
-Sales KPIs
-Category analysis
-Regional analysis
-Product rankings
-Customer rankings
-Customer segmentation
-Monthly trends
-Revenue contribution
-Window-function analysis
-5. Open the Excel Dashboard
+- Sales KPIs
+- Category analysis
+- Regional analysis
+- Product rankings
+- Customer rankings
+- Customer segmentation
+- Monthly trends
+- Revenue contribution
+- Window-function analysis
 
-Open:
+### 5. Open the Excel Dashboard
 
-ecommerce_sales_customer_analytics_dashboard.xlsx
+Open `ecommerce_dashboard.xlsx` to explore the dashboard and supporting analysis sheets.
 
-to explore the dashboard and supporting analysis sheets.
+---
 
-📚 Key Learning Outcomes
+## 📚 Key Learning Outcomes
 
 Through this project, I gained hands-on experience in:
 
-Translating business questions into SQL queries
-Working with relational databases
-Performing sales and customer analysis
-Writing CTE-based SQL queries
-Using SQL window functions
-Applying ranking techniques
-Calculating business KPIs
-Analysing customer purchasing behaviour
-Building Excel dashboards
-Identifying business trends
-Converting analytical findings into recommendations
-Presenting data in a business-friendly format
-🔮 Future Improvements
+- Translating business questions into SQL queries
+- Working with relational databases
+- Performing sales and customer analysis
+- Writing CTE-based SQL queries
+- Using SQL window functions
+- Applying ranking techniques
+- Calculating business KPIs
+- Analysing customer purchasing behaviour
+- Building Excel dashboards
+- Identifying business trends
+- Converting analytical findings into recommendations
+- Presenting data in a business-friendly format
+
+---
+
+## 🔮 Future Improvements
 
 Potential enhancements include:
 
-Power BI interactive dashboard
-RFM customer analysis
-Profit and margin analysis
-Customer lifetime value analysis
-Sales forecasting
-Automated data pipeline
-Larger real-world dataset
-Interactive analytics application
-👨‍💻 Author
+- Power BI interactive dashboard
+- RFM customer analysis
+- Profit and margin analysis
+- Customer lifetime value analysis
+- Sales forecasting
+- Automated data pipeline
+- Larger real-world dataset
+- Interactive analytics application
 
-Chirag Sood
+---
+
+## 👨‍💻 Author
+
+**Chirag Sood**
 
 B.E. Computer Science
 
 Thapar Institute of Engineering & Technology
 
-GitHub: itzchirag00
+**GitHub:** [itzchirag00](https://github.com/itzchirag00)
 
-LinkedIn: Chirag Sood
+**LinkedIn:** [Chirag Sood](https://linkedin.com/in/chiragsood07)
 
-📜 License
+---
+
+## 📜 License
 
 This project is intended for educational and personal portfolio use.
